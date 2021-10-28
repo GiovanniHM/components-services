@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-img',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImgComponent implements OnInit {
 
+  //Recibir un valor del padre al hijo
+  @Input() img: string;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
 }

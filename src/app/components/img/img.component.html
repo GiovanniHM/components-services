@@ -1,1 +1,5 @@
-<p>img works!</p>
+<img width="200" [src]="img" alt="" *ngIf="img; else elseimg">
+
+<ng-template #elseimg>
+  <img src="https://cdn3.josefacchin.com/wp-content/uploads/2018/09/http-not-found-error-404.png" alt="">
+</ng-template>
