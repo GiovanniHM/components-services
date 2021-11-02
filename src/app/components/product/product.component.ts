@@ -13,7 +13,9 @@ export class ProductComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }
